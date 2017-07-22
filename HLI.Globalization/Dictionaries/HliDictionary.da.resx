@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Knappen Annuller</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Giv mig et sekund</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="TimeLog" xml:space="preserve">
+    <value>Tidslog</value>
+  </data>
+  <data name="TimeNodes" xml:space="preserve">
+    <value>TimeNodes</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Ikrafttrædelsesdato</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Slutdato</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>I dag</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>Arbejde</value>
+    <comment>TimeLogType</comment>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>timer</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Lunch" xml:space="preserve">
+    <value>Frokost</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projekt</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Absence" xml:space="preserve">
+    <value>Fravær</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Møde</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Vacation" xml:space="preserve">
+    <value>Ferie</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Sickleave" xml:space="preserve">
+    <value>Syg smiley</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Åbn fil</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+    <comment>Stop a timelog</comment>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Typer</value>
+    <comment>Navigation link</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Hovedtotal</value>
+    <comment>Listbox</comment>
+  </data>
+  <data name="DefaultDuration" xml:space="preserve">
+    <value>Standard længde (min)</value>
+    <comment>TimeLogType label</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="DefaultType" xml:space="preserve">
+    <value>Standardtype</value>
+    <comment>Setting view</comment>
+  </data>
+  <data name="Achievement" xml:space="preserve">
+    <value>Ydeevne</value>
+    <comment>Achievement</comment>
+  </data>
+  <data name="Achievments" xml:space="preserve">
+    <value>Gennemførelser</value>
+    <comment>Navigation</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprog</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Vecka</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Månad</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Always" xml:space="preserve">
+    <value>Alltid</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="DefaultReason" xml:space="preserve">
+    <value>Standard blev</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="TimeLogs" xml:space="preserve">
+    <value>Tidsloggar</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Vald</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Lade</value>
+  </data>
+</root>

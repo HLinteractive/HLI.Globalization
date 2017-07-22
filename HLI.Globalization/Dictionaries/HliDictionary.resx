@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ge mig en sekund</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="TimeLog" xml:space="preserve">
+    <value>Tidslogg</value>
+  </data>
+  <data name="TimeNodes" xml:space="preserve">
+    <value>TimeNodes</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdatum</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Slutdatum</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Idag</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>Arbete</value>
+    <comment>TimeLogType</comment>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timmar</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Lunch" xml:space="preserve">
+    <value>Lunch</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projekt</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Möte</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Vacation" xml:space="preserve">
+    <value>Semester</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Sickleave" xml:space="preserve">
+    <value>Sjuk</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öppna</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+    <comment>Stop a timelog</comment>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Typer</value>
+    <comment>Navigation link</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totalt</value>
+    <comment>Listbox</comment>
+  </data>
+  <data name="DefaultDuration" xml:space="preserve">
+    <value>Standardlängd (min)</value>
+    <comment>TimeLogType label</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="DefaultType" xml:space="preserve">
+    <value>Standardtyp</value>
+    <comment>Setting view</comment>
+  </data>
+  <data name="Achievement" xml:space="preserve">
+    <value>Prestation</value>
+    <comment>Achievement</comment>
+  </data>
+  <data name="Achievments" xml:space="preserve">
+    <value>Prestationer</value>
+    <comment>Navigation</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Vecka</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Månad</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Always" xml:space="preserve">
+    <value>Alltid</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="DefaultReason" xml:space="preserve">
+    <value>Standard anledning</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="TimeLogs" xml:space="preserve">
+    <value>Tidsloggar</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Vald</value>
+  </data>
+  <data name="Noob" xml:space="preserve">
+    <value>N00b</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>Skapare</value>
+  </data>
+  <data name="BusyBee" xml:space="preserve">
+    <value>Arbetsmyra</value>
+  </data>
+  <data name="HardWorker" xml:space="preserve">
+    <value>Jobbar hårt</value>
+  </data>
+  <data name="Workaholic" xml:space="preserve">
+    <value>Arbetsnarkoman</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Varaktighet</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Ladda</value>
+  </data>
+</root>

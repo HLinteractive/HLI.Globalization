@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="sv-SE" target-language="en" original="HLI.GLOBALIZATION/DICTIONARIES/HLIMESSAGES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1517.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="HLI.GLOBALIZATION/DICTIONARIES/HLIMESSAGES.RESX" datatype="resx">
+        <trans-unit id="AchievementMessage" translate="yes" xml:space="preserve">
+          <source>Du har låst upp följande prestation</source>
+          <target state="final">You have unlocked the following achievement</target>
+        </trans-unit>
+        <trans-unit id="AchievementUnlocked" translate="yes" xml:space="preserve">
+          <source>Prestation uppåst</source>
+          <target state="final">Achievement unlocked</target>
+        </trans-unit>
+        <trans-unit id="RotateForStatistics" translate="yes" xml:space="preserve">
+          <source>Rotera för statistik</source>
+          <target state="final">Rotate for statistics</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="sv-SE" target-language="en" original="HLI.GLOBALIZATION/DICTIONARIES/HLIDICTIONARY.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1563.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="HLI.GLOBALIZATION/DICTIONARIES/HLIDICTIONARY.RESX" datatype="resx">
+        <trans-unit id="Add" translate="yes" xml:space="preserve">
+          <source>Ny</source>
+          <target state="final" state-qualifier="tm-suggestion">New</target>
+        </trans-unit>
+        <trans-unit id="Cancel" translate="yes" xml:space="preserve">
+          <source>Avbryt</source>
+          <target state="final" state-qualifier="tm-suggestion">Cancel</target>
+        </trans-unit>
+        <trans-unit id="Delete" translate="yes" xml:space="preserve">
+          <source>Radera</source>
+          <target state="final" state-qualifier="tm-suggestion">Clear</target>
+        </trans-unit>
+        <trans-unit id="Home" translate="yes" xml:space="preserve">
+          <source>Hem</source>
+          <target state="final" state-qualifier="tm-suggestion">Home</target>
+        </trans-unit>
+        <trans-unit id="Loading" translate="yes" xml:space="preserve">
+          <source>Ge mig en sekund</source>
+          <target state="final" state-qualifier="mt-suggestion">Give me a second</target>
+        </trans-unit>
+        <trans-unit id="Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="final" state-qualifier="tm-suggestion">Ok</target>
+        </trans-unit>
+        <trans-unit id="Save" translate="yes" xml:space="preserve">
+          <source>Spara</source>
+          <target state="final" state-qualifier="tm-suggestion">Save</target>
+        </trans-unit>
+        <trans-unit id="Search" translate="yes" xml:space="preserve">
+          <source>Sök</source>
+          <target state="final" state-qualifier="tm-suggestion">Search</target>
+        </trans-unit>
+        <trans-unit id="Settings" translate="yes" xml:space="preserve">
+          <source>Alternativ</source>
+          <target state="final" state-qualifier="tm-suggestion">Options</target>
+        </trans-unit>
+        <trans-unit id="TimeLog" translate="yes" xml:space="preserve">
+          <source>Tidslogg</source>
+          <target state="final" state-qualifier="tm-suggestion">Time log</target>
+        </trans-unit>
+        <trans-unit id="TimeNodes" translate="yes" xml:space="preserve">
+          <source>TimeNodes</source>
+          <target state="final" state-qualifier="mt-suggestion">TimeNodes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">@Invariant</note>
+        </trans-unit>
+        <trans-unit id="StartDate" translate="yes" xml:space="preserve">
+          <source>Startdatum</source>
+          <target state="final" state-qualifier="tm-suggestion">Start Date</target>
+        </trans-unit>
+        <trans-unit id="EndDate" translate="yes" xml:space="preserve">
+          <source>Slutdatum</source>
+          <target state="final" state-qualifier="tm-suggestion">Date completed</target>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Beskrivning</source>
+          <target state="final" state-qualifier="tm-suggestion">Description</target>
+        </trans-unit>
+        <trans-unit id="Type" translate="yes" xml:space="preserve">
+          <source>Typ</source>
+          <target state="final" state-qualifier="tm-suggestion">Type</target>
+        </trans-unit>
+        <trans-unit id="Today" translate="yes" xml:space="preserve">
+          <source>Idag</source>
+          <target state="final" state-qualifier="tm-suggestion">Today</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Count tiles</note>
+        </trans-unit>
+        <trans-unit id="Work" translate="yes" xml:space="preserve">
+          <source>Arbete</source>
+          <target state="final" state-qualifier="tm-suggestion">Work</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType</note>
+        </trans-unit>
+        <trans-unit id="Hours" translate="yes" xml:space="preserve">
+          <source>Timmar</source>
+          <target state="final" state-qualifier="tm-suggestion">Hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Count tiles</note>
+        </trans-unit>
+        <trans-unit id="Lunch" translate="yes" xml:space="preserve">
+          <source>Lunch</source>
+          <target state="final" state-qualifier="tm-suggestion">Lunch</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Project" translate="yes" xml:space="preserve">
+          <source>Projekt</source>
+          <target state="final" state-qualifier="tm-suggestion">Project</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Absence" translate="yes" xml:space="preserve">
+          <source>Frånvaro</source>
+          <target state="final" state-qualifier="tm-suggestion">Out of Office</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Meeting" translate="yes" xml:space="preserve">
+          <source>Möte</source>
+          <target state="final" state-qualifier="tm-suggestion">Meeting</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Vacation" translate="yes" xml:space="preserve">
+          <source>Semester</source>
+          <target state="final" state-qualifier="tm-suggestion">Vacation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Sickleave" translate="yes" xml:space="preserve">
+          <source>Sjuk</source>
+          <target state="final">Sick leave</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType enum</note>
+        </trans-unit>
+        <trans-unit id="Open" translate="yes" xml:space="preserve">
+          <source>Öppna</source>
+          <target state="final" state-qualifier="tm-suggestion">Open</target>
+        </trans-unit>
+        <trans-unit id="Close" translate="yes" xml:space="preserve">
+          <source>Stäng</source>
+          <target state="final" state-qualifier="tm-suggestion">Close</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Stop a timelog</note>
+        </trans-unit>
+        <trans-unit id="Types" translate="yes" xml:space="preserve">
+          <source>Typer</source>
+          <target state="final" state-qualifier="tm-suggestion">Types</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Navigation link</note>
+        </trans-unit>
+        <trans-unit id="Total" translate="yes" xml:space="preserve">
+          <source>Totalt</source>
+          <target state="final">Total</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Listbox</note>
+        </trans-unit>
+        <trans-unit id="DefaultDuration" translate="yes" xml:space="preserve">
+          <source>Standardlängd (min)</source>
+          <target state="final" state-qualifier="mt-suggestion">Standard length (min)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TimeLogType label</note>
+        </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Namn</source>
+          <target state="final">Name</target>
+        </trans-unit>
+        <trans-unit id="DefaultType" translate="yes" xml:space="preserve">
+          <source>Standardtyp</source>
+          <target state="final" state-qualifier="tm-suggestion">Standard Type</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Setting view</note>
+        </trans-unit>
+        <trans-unit id="Achievement" translate="yes" xml:space="preserve">
+          <source>Prestation</source>
+          <target state="final">Achievement</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Achievement</note>
+        </trans-unit>
+        <trans-unit id="Achievments" translate="yes" xml:space="preserve">
+          <source>Prestationer</source>
+          <target state="final" state-qualifier="tm-suggestion">Achievements</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Navigation</note>
+        </trans-unit>
+        <trans-unit id="Language" translate="yes" xml:space="preserve">
+          <source>Språk</source>
+          <target state="final">Language</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Setting</note>
+        </trans-unit>
+        <trans-unit id="Week" translate="yes" xml:space="preserve">
+          <source>Vecka</source>
+          <target state="final">Week</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Enum DateOption</note>
+        </trans-unit>
+        <trans-unit id="Month" translate="yes" xml:space="preserve">
+          <source>Månad</source>
+          <target state="final">Month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Enum DateOption</note>
+        </trans-unit>
+        <trans-unit id="Always" translate="yes" xml:space="preserve">
+          <source>Alltid</source>
+          <target state="final">Always</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Enum DateOption</note>
+        </trans-unit>
+        <trans-unit id="Quantity" translate="yes" xml:space="preserve">
+          <source>Antal</source>
+          <target state="final">Quantity</target>
+        </trans-unit>
+        <trans-unit id="DefaultReason" translate="yes" xml:space="preserve">
+          <source>Standard anledning</source>
+          <target state="final">Standard reason</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Setting</note>
+        </trans-unit>
+        <trans-unit id="Date" translate="yes" xml:space="preserve">
+          <source>Datum</source>
+          <target state="final">Date</target>
+        </trans-unit>
+        <trans-unit id="Year" translate="yes" xml:space="preserve">
+          <source>År</source>
+          <target state="final">Year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Enum DateOption</note>
+        </trans-unit>
+        <trans-unit id="TimeLogs" translate="yes" xml:space="preserve">
+          <source>Tidsloggar</source>
+          <target state="final">Timelogs</target>
+        </trans-unit>
+        <trans-unit id="Copy" translate="yes" xml:space="preserve">
+          <source>Kopiera</source>
+          <target state="final">Copy</target>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Ångra</source>
+          <target state="final">Undo</target>
+        </trans-unit>
+        <trans-unit id="Statistics" translate="yes" xml:space="preserve">
+          <source>Statistik</source>
+          <target state="final">Statistics</target>
+        </trans-unit>
+        <trans-unit id="Selected" translate="yes" xml:space="preserve">
+          <source>Vald</source>
+          <target state="final">Selected</target>
+        </trans-unit>
+        <trans-unit id="Noob" translate="no" xml:space="preserve">
+          <source>N00b</source>
+          <target state="final">N00b</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">@Invariant</note>
+        </trans-unit>
+        <trans-unit id="Creator" translate="yes" xml:space="preserve">
+          <source>Skapare</source>
+          <target state="final">Creator</target>
+        </trans-unit>
+        <trans-unit id="BusyBee" translate="yes" xml:space="preserve">
+          <source>Arbetsmyra</source>
+          <target state="final">Busy bee</target>
+        </trans-unit>
+        <trans-unit id="HardWorker" translate="yes" xml:space="preserve">
+          <source>Jobbar hårt</source>
+          <target state="final">Hard worker</target>
+        </trans-unit>
+        <trans-unit id="Workaholic" translate="yes" xml:space="preserve">
+          <source>Arbetsnarkoman</source>
+          <target state="final">Work-a-holic</target>
+        </trans-unit>
+        <trans-unit id="Duration" translate="yes" xml:space="preserve">
+          <source>Varaktighet</source>
+          <target state="final">Duration</target>
+        </trans-unit>
+        <trans-unit id="Location" translate="yes" xml:space="preserve">
+          <source>Plats</source>
+          <target state="final">Location</target>
+        </trans-unit>
+        <trans-unit id="Image" translate="yes" xml:space="preserve">
+          <source>Bild</source>
+          <target state="final">Image</target>
+        </trans-unit>
+        <trans-unit id="Load" translate="yes" xml:space="preserve">
+          <source>Ladda</source>
+          <target state="final">Load</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

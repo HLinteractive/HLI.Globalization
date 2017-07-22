@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Heim</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Gib mir ein moment</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="TimeLog" xml:space="preserve">
+    <value>Zeit-log</value>
+  </data>
+  <data name="TimeNodes" xml:space="preserve">
+    <value>TimeNodes</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdatum</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Enddatum</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Heute</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>Arbeit</value>
+    <comment>TimeLogType</comment>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Stunden</value>
+    <comment>Count tiles</comment>
+  </data>
+  <data name="Lunch" xml:space="preserve">
+    <value>Mittagsessen</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projekte</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Absence" xml:space="preserve">
+    <value>Fehlen</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Treff</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Vacation" xml:space="preserve">
+    <value>Urlaub</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Sickleave" xml:space="preserve">
+    <value>Krank</value>
+    <comment>TimeLogType enum</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+    <comment>Stop a timelog</comment>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Typen</value>
+    <comment>Navigation link</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Gesamt</value>
+    <comment>Listbox</comment>
+  </data>
+  <data name="DefaultDuration" xml:space="preserve">
+    <value>Standard-Länge (min)</value>
+    <comment>TimeLogType label</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultType" xml:space="preserve">
+    <value>Standardart</value>
+    <comment>Setting view</comment>
+  </data>
+  <data name="Achievement" xml:space="preserve">
+    <value>Leistung</value>
+    <comment>Achievement</comment>
+  </data>
+  <data name="Achievments" xml:space="preserve">
+    <value>Leistunge</value>
+    <comment>Navigation</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Woche</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Monat</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Always" xml:space="preserve">
+    <value>Immer</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Anzahl</value>
+  </data>
+  <data name="DefaultReason" xml:space="preserve">
+    <value>Standard Beschreibung</value>
+    <comment>Setting</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Jahr</value>
+    <comment>Enum DateOption</comment>
+  </data>
+  <data name="TimeLogs" xml:space="preserve">
+    <value>Zeit-logen</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Ruckängig</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Aushgewählt</value>
+  </data>
+  <data name="Noob" xml:space="preserve">
+    <value>N00b</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>Schöpfer</value>
+  </data>
+  <data name="BusyBee" xml:space="preserve">
+    <value>Busy bee</value>
+  </data>
+  <data name="HardWorker" xml:space="preserve">
+    <value>Hard Arbeiter</value>
+  </data>
+  <data name="Workaholic" xml:space="preserve">
+    <value>Arbeitstier</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Dauerhaft</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lage</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Aufladen</value>
+  </data>
+</root>
