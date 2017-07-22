@@ -7,7 +7,22 @@
     <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
   </PropertyGroup>
   <PropertyGroup>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageIconUrl>https://dl.dropboxusercontent.com/u/1027259/hliicon.ico</PackageIconUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/HLinteractive/HLI.Globalization/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HLinteractive/HLI.Globalization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HLinteractive/HLI.Globalization.git</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>Thomas Hagström, HL Interactive</Authors>
+    <Company>HL interactive</Company>
+    <Copyright>Copyright © HL Interactive 2017 Stockholm Sweden</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <Description>HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT). Neutral language is Swedish (sv-SE).</Description>
+    <DefaultLanguage>sv-SE</DefaultLanguage>
+    <PackageTags>Globalization,RESX,XLF,MAT,Multiligual,Swedish,German,Frensh</PackageTags>
+    <PackageReleaseNotes>First public release using netstandard 1.4</PackageReleaseNotes>
     <NeutralLanguage>sv-SE</NeutralLanguage>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />

@@ -2,11 +2,11 @@
 > HL Interactive (HLi)
 
 # HLI.Globalization
-HL Interactive globalization library where resources for localization are kept.  
+HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT).
+ 
 Neutral language is **Swedish (sv-SE)**.
 
-Cultures are initally auto translated using **[Microsoft's Multiligual App Toolkit (MAT)](https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit "Multiligual App Toolkit at Microsoft.com")**.
-
+Cultures are initally auto translated using **[Microsoft's Multiligual App Toolkit (MAT)](https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit "Multiligual App Toolkit at Microsoft.com")**.  
 When reviewed by a native speaking translator the translations are marked as "final".
 
 ## Usage
