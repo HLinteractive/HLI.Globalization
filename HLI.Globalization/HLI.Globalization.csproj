@@ -1,29 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTargetFallback>portable-net45+win8+wpa81+wp8</PackageTargetFallback>
+    <DebugType>full</DebugType>
+    <Authors>Thomas Hagström, HL Interactive</Authors>
+    <Company>HL interactive</Company>
+    <GenerateAssemblyConfigurationAttribute>true</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Copyright>Copyright © HL Interactive 2017 Stockholm Sweden</Copyright>
+    <PackageIconUrl>https://dl.dropboxusercontent.com/u/1027259/hliicon.ico</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <TargetFrameworks>net45;netstandard1.4;uap10.0;portable-win81+wpa81;</TargetFrameworks>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
+    <IncludeSymbols>false</IncludeSymbols>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/HLinteractive/HLI.Globalization/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HLinteractive/HLI.Globalization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HLinteractive/HLI.Globalization.git</RepositoryUrl>
+    <Description>HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT). Neutral language is Swedish (sv-SE).</Description>
+    <DefaultLanguage>sv-SE</DefaultLanguage>
+    <PackageTags>Globalization,RESX,XLF,MAT,Multiligual,Swedish,German,Frensh</PackageTags>
+    <NeutralLanguage>sv-SE</NeutralLanguage>
+    <PackageReleaseNotes>Multi-target NET45 / PCL / UAP 10 / NetStandard 1.4 using VS2017 CSPROJ</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
   <PropertyGroup Label="MultilingualAppToolkit">
     <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
     <MultilingualFallbackLanguage>sv-SE</MultilingualFallbackLanguage>
     <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
     <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
-  </PropertyGroup>
-  <PropertyGroup>
-    <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <TargetFramework>netstandard1.4</TargetFramework>
-    <PackageIconUrl>https://dl.dropboxusercontent.com/u/1027259/hliicon.ico</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/HLinteractive/HLI.Globalization/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/HLinteractive/HLI.Globalization</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/HLinteractive/HLI.Globalization.git</RepositoryUrl>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Authors>Thomas Hagström, HL Interactive</Authors>
-    <Company>HL interactive</Company>
-    <Copyright>Copyright © HL Interactive 2017 Stockholm Sweden</Copyright>
-    <RepositoryType>git</RepositoryType>
-    <Description>HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT). Neutral language is Swedish (sv-SE).</Description>
-    <DefaultLanguage>sv-SE</DefaultLanguage>
-    <PackageTags>Globalization,RESX,XLF,MAT,Multiligual,Swedish,German,Frensh</PackageTags>
-    <PackageReleaseNotes>First public release using netstandard 1.4</PackageReleaseNotes>
-    <NeutralLanguage>sv-SE</NeutralLanguage>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
@@ -105,4 +111,77 @@
       <LastGenOutput>HliMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <!-- NetStandard facade for PCL compatibility
+  https://oren.codes/2017/01/04/multi-targeting-the-world-a-single-project-to-rule-them-all/#windows-example
+  -->
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.0'">
+    <DefineConstants>$(DefineConstants);PCL</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetFramework)' == 'portable-win81+wpa81'">
+    <TargetFrameworkIdentifier>.NETPortable</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile32</TargetFrameworkProfile>
+    <NugetTargetMoniker>.NETPortable,Version=v0.0,Profile=Profile32</NugetTargetMoniker>
+    <LanguageTargets>$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets</LanguageTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetFramework)' == 'uap10.0'">
+    <NugetTargetMoniker>UAP,Version=v10.0</NugetTargetMoniker>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10568.0</TargetPlatformMinVersion>
+    <TargetFrameworkIdentifier>.NETCore</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <DefineConstants>$(DefineConstants);WINDOWS_UWP</DefineConstants>
+    <LanguageTargets>$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets</LanguageTargets>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.IO" />
+    <Reference Include="System.Linq.Expressions" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Resources.ResourceManager" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Extensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Primitives" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'portable-win81+wpa81' ">
+    <TargetPlatform Include="Windows, Version=8.1" />
+    <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.4' ">
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0' or '$(TargetFramework)' == 'wpa81' or '$(TargetFramework)' == 'win8' or '$(TargetFramework)' == 'portable-win81+wpa81' or '$(TargetFramework)' == 'wp8' ">
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' ">
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0' ">
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform " Version="5.2.2" />
+  </ItemGroup>
+  <Target Name="AdjustReferringTargetFrameworkForUAP" BeforeTargets="GetTargetFrameworkProperties">
+    <PropertyGroup Condition="'$(ReferringTargetFramework)' == '.NETCore,Version=v5.0'">
+      <ReferringTargetFramework>UAP,Version=v10.0</ReferringTargetFramework>
+    </PropertyGroup>
+  </Target>
+  <ItemGroup>
+    <Compile Remove="obj\Debug\**" />
+    <EmbeddedResource Remove="obj\Debug\**" />
+    <None Remove="obj\Debug\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Condition="'$(TargetFramework)' != 'net45'" Version="1.6.1" />
+  </ItemGroup>
 </Project>
+

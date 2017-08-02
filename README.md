@@ -1,8 +1,22 @@
 ![HL Interactive](https://www.dropbox.com/s/fdyzvkso9zs9ndf/HLi.Signature.DVDs.jpg?dl=1)
 > HL Interactive (HLi)
 
+- [HLI.Globalization](#hliglobalization)
+  * [Usage](#usage)
+    + [From code](#from-code)
+    + [From XAML](#from-xaml)
+  * [Translation status](#translation-status)
+  * [Delivery & Deployment](#delivery---deployment)
+  * [Repository File Structure](#repository-file-structure)
+  * [Changes and backward compatibility](#changes-and-backward-compatibility)
+
 # HLI.Globalization
 HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT).
+
+[![NuGet](https://img.shields.io/nuget/v/HLI.Globalization.svg)
+![Downloads](https://img.shields.io/nuget/dt/HLI.Globalization.svg)](https://preview.nuget.org/packages/HLI.Globalization/)
+![Build Status VSTS](https://nodessoft.visualstudio.com/_apis/public/build/definitions/3a183231-51dc-48b1-93c8-1ecde648ef37/22/badge)
+
  
 Neutral language is **Swedish (sv-SE)**.
 
@@ -13,7 +27,9 @@ When reviewed by a native speaking translator the translations are marked as "fi
 ### From code
 Read strings using the class **`Manager.cs`**. It has a static method for translating:
 
+	```csharp
 	var localized = HLI.Globalization.Manager.Translate("Save", new CultureInfo("de"));
+	```
 
 ### From XAML
 Use the appropriate localization provider, for example **[Xamarin.Forms IMarkupExtension](https://developer.xamarin.com/guides/xamarin-forms/advanced/localization/ "Localizing Xamarin.Forms")**
