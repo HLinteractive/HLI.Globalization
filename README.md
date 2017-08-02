@@ -60,4 +60,5 @@ Download the nuget package through Package Manager Console:
 	* **MultilingualResources** - MAT toolkit source localization files (*.xlf)
 
 ## Changes and backward compatibility
+* Multi-target NET45 / PCL / UAP 10 / NetStandard 1.4 using VS2017 CSPROJ
 * Initial public netstandard 1.4 library

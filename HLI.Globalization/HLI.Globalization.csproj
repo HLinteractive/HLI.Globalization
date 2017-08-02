@@ -18,7 +18,7 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/HLinteractive/HLI.Globalization/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/HLinteractive/HLI.Globalization</PackageProjectUrl>
     <RepositoryUrl>https://github.com/HLinteractive/HLI.Globalization.git</RepositoryUrl>
-    <Description>HL Interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT). Neutral language is Swedish (sv-SE).</Description>
+    <Description>HL interactive globalization library for localized resources (RESX) generated out for XLF using Multilingual App Toolkit (MAT). Neutral language is Swedish (sv-SE).</Description>
     <DefaultLanguage>sv-SE</DefaultLanguage>
     <PackageTags>Globalization,RESX,XLF,MAT,Multiligual,Swedish,German,Frensh</PackageTags>
     <NeutralLanguage>sv-SE</NeutralLanguage>
